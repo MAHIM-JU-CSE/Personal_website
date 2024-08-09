@@ -7,6 +7,8 @@ import './Skills.scss';
 
 // Import the static image from the assets folder
 import about01 from '../../assets/about01.png';
+import samsung from '../../assets/samsungresearchbangladesh_logo.jpg';
+
 
 // Static data for experiences and skills
 const experiences = [
@@ -93,7 +95,7 @@ const Skills = () => {
                       key={work.name}
                     >
                       <h2 className="bold-text">{work.name}</h2>
-                      <h5 className="p-text">{work.company}</h5>
+                      <h5>{work.company}</h5>
                       <div dangerouslySetInnerHTML={{ __html: work.desc }} className="p-text" />
                     </motion.div>
                     <Tooltip

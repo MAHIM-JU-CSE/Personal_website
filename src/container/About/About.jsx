@@ -18,7 +18,7 @@ const abouts = [
   },
   {
     title: 'Software Engineer',
-    description: 'As a Software Engineer at Samsung R&D Institute Bangladesh, I work on an internal web-based project for managing networking data, utilizing Spring Boot, React, and MongoDB. This project includes seven modules for handling 3G, 4G, and 5G data, with RabbitMQ facilitating inter-module communication and WebSocket providing real-time analytics in the Data Integration and Management System (DIMS) project. I have also worked on patent development, focusing on advancements in camera photography and generative AI. Additionally, I am working on a separate project involving a Knowledge Graph RAG interface to improve the retrieval and generation of information for private data.',
+    description: 'As a Software Engineer at Samsung R&D Institute Bangladesh, I work on an internal web-based project that manages networking data using Spring Boot, React, and MongoDB. This project, Data Integration and Management Studio (DIMS), includes seven modules designed to handle 3G, 4G, and 5G data. RabbitMQ facilitates inter-module communication, while WebSocket enables real-time analytics. I have also contributed to patent development, focusing on advancements in camera photography and generative AI. Additionally, I am also working on a separate project involving a Knowledge Graph RAG interface to enhance the retrieval and generation of information for private data.',
     imgUrl: img2,
   },
   {

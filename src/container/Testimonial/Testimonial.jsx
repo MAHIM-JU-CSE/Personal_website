@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 // Import the static image from the assets folder
 import about01 from '../../assets/about01.png';
+import samsung from '../../assets/samsungresearchbangladesh_logo.jpg';
+import ju from '../../assets/logo-ju.png';
 import './Testimonial.scss';
 
 // Static data for testimonials and brands
@@ -23,8 +25,8 @@ const testimonials = [
 ];
 
 const brands = [
-  { _id: '1', name: 'Brand A', imgUrl: about01 },
-  { _id: '2', name: 'Brand B', imgUrl: about01 },
+  { _id: '1', name: 'Brand A', imgUrl: samsung },
+  { _id: '2', name: 'Brand B', imgUrl: ju },
   // Add more brands as needed
 ];
 
