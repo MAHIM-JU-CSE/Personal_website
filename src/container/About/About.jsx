@@ -6,24 +6,24 @@ import './About.scss';
 
 // Import images from the assets folder
 import img1 from '../../assets/education.jpg';
-import img2 from '../../assets/about01.png';
-import img3 from '../../assets/about01.png';
+import img2 from '../../assets/SW.jpg';
+import img3 from '../../assets/research.png';
 import img4 from '../../assets/icpc.png';
 
 const abouts = [
   {
     title: 'Education',
-    description: 'I completed my B.Sc. (Hons.) in Computer Science and Engineering from Jahangirnagar University, Dhaka, in 2021, graduating with a CGPA of 3.69 out of 4.0. During my undergraduate studies, I was awarded five scholarships—one for admission and four for academic excellence. I also completed my M.Sc. in Computer Science and Engineering with a CGPA of 3.8 out of 4.0. My academic journey began with a perfect GPA of 5.0 out of 5.0 in both my Higher Secondary Certificate (HSC) and Secondary School Certificate (SSC) exams.',
+    description: 'I completed my B.Sc. (Hons.) in Computer Science and Engineering from Jahangirnagar University, Dhaka, in 2021, graduating with a CGPA of 3.69 out of 4.0. During my undergraduate studies, I was awarded five scholarships-one for admission and four for academic excellence. I also completed my M.Sc. in Computer Science and Engineering with a CGPA of 3.8 out of 4.0. My academic journey began with a perfect GPA of 5.0 out of 5.0 in both my Higher Secondary Certificate (HSC) and Secondary School Certificate (SSC) exams.',
     imgUrl: img1,
   },
   {
-    title: 'Advanced Technology',
-    description: 'Utilizing cutting-edge technology for superior performance.',
+    title: 'Software Engineer',
+    description: 'As a Software Engineer at Samsung R&D Institute Bangladesh, I work on an internal web-based project for managing networking data, utilizing Spring Boot, React, and MongoDB. This project includes seven modules for handling 3G, 4G, and 5G data, with RabbitMQ facilitating inter-module communication and WebSocket providing real-time analytics in the Data Integration and Management System (DIMS) project. I have also worked on patent development, focusing on advancements in camera photography and generative AI. Additionally, I am working on a separate project involving a Knowledge Graph RAG interface to improve the retrieval and generation of information for private data.',
     imgUrl: img2,
   },
   {
-    title: 'Customer Focus',
-    description: 'Prioritizing customer needs in all our innovations.',
+    title: 'Research',
+    description: 'In my research, I focus on making large language models more efficient and practical by exploring innovative techniques like model quantization and LoRA (Low-Rank Adaptation). My goal is to enhance how these models perform, making them more useful in real-world applications. I have been working with the LLaMA 2 and LLaMA 3 models to develop and test proof-of-concept solutions, pushing the boundaries of what these models can achieve. Beyond language models, I’m also involved in developing patents related to camera photography and generative AI. This work is about pushing the envelope in how we capture and create images, blending cutting-edge technology with creative solutions. Another exciting project I’m working on involves a Knowledge Graph RAG (Retrieve and Generate) interface. This project aims to improve how we handle and utilize private data by linking structured data with advanced language models, ultimately enhancing the accuracy and relevance of the information we generate.',
     imgUrl: img3,
   },
   {
