@@ -11,7 +11,7 @@ import about01 from '../../assets/about01.png';
 // Static data for experiences and skills
 const experiences = [
   {
-    year: 'April 2023 - Present',
+    year: '5 April 2023 - Present',
     works: [
       {
         name: 'Software Engineer',
@@ -25,7 +25,7 @@ const experiences = [
     year: 'Dec 2021 - April 2023',
     works: [
       {
-        name: 'Competitive Programming Trainer, Class Representative',
+        name: 'Competitive Programming Trainer (Teaching Assistant), Class Representative',
         company: 'Department of Computer Science & Engineering, Jahangirnagar University',
         desc: 'Since December 2021, I have been serving as a Competitive Programming Trainer and Class Representative in the Department of Computer Science & Engineering at Jahangirnagar University. In this role, I train junior students in C, C++, data structures, and algorithms to prepare them for programming contests, manage regular training classes, organize practice contests, and monitor students performance. Additionally, I oversee academic classes for my batch and coordinate departmental ceremonies and events.',
       },
