@@ -7,8 +7,6 @@ import './Skills.scss';
 
 // Import the static image from the assets folder
 import about01 from '../../assets/about01.png';
-import samsung from '../../assets/samsungresearchbangladesh_logo.jpg';
-
 
 // Static data for experiences and skills
 const experiences = [
@@ -18,7 +16,7 @@ const experiences = [
       {
         name: 'Software Engineer',
         company: 'Samsung R&D Institute Bangladesh',
-        desc: 'At Samsung R&D Institute Bangladesh, I am responsible for working on an internal web-based project designed to manage networking data. My role involves utilizing Spring Boot, React, and MongoDB to develop and maintain a system with seven modules that handle 3G, 4G, and 5G data. I implement RabbitMQ for seamless inter-module communication and WebSocket for real-time analytics in the Data Integration and Management System (DIMS) project. In addition to my primary project, I contribute to patent development with a focus on advancements in camera photography and generative AI. I am also involved in a separate project developing a Knowledge Graph RAG (Retrieve and Generate) interface to enhance the management and relevance of private data.',
+        desc: '<br><b>1.</b> At Samsung R&D Institute Bangladesh, I am responsible for working on an internal web-based project designed to manage networking data. My role involves utilizing Spring Boot, React, and MongoDB to develop and maintain a system with seven modules that handle 3G, 4G, and 5G data. I implement RabbitMQ for seamless inter-module communication and WebSocket for real-time analytics in the Data Integration and Management System (DIMS) project. <br><br><b>2.</b> In addition to my primary project, I contribute to patent development with a focus on advancements in camera photography and generative AI.<br><br><b>3.</b> I am also involved in a separate project developing a Knowledge Graph RAG (Retrieve and Generate) interface to enhance the management and relevance of private data.',
       },
       // Add more work experiences as needed
     ],
@@ -29,7 +27,7 @@ const experiences = [
       {
         name: 'Competitive Programming Trainer (Teaching Assistant), Class Representative',
         company: 'Department of Computer Science & Engineering, Jahangirnagar University',
-        desc: 'Since December 2021, I have been serving as a Competitive Programming Trainer and Class Representative in the Department of Computer Science & Engineering at Jahangirnagar University. In this role, I train junior students in C, C++, data structures, and algorithms to prepare them for programming contests, manage regular training classes, organize practice contests, and monitor students performance. Additionally, I oversee academic classes for my batch and coordinate departmental ceremonies and events.',
+        desc: '<br><b>1.</b> Since December 2021, I have been serving as a Competitive Programming Trainer and Class Representative in the Department of Computer Science & Engineering at Jahangirnagar University.<br><br><b>2.</b> In this role, I train junior students in C, C++, data structures, and algorithms to prepare them for programming contests, manage regular training classes, organize practice contests, and monitor students performance. Additionally, I oversee academic classes for my batch and coordinate departmental ceremonies and events.',
       },
       // Add more work experiences as needed
     ],
