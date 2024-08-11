@@ -27,7 +27,7 @@ const experiences = [
       {
         name: 'Competitive Programming Trainer (Teaching Assistant), Class Representative',
         company: 'Department of Computer Science & Engineering, Jahangirnagar University',
-        desc: '<br><b>1.</b> Since December 2021, I have been serving as a Competitive Programming Trainer and Class Representative in the Department of Computer Science & Engineering at Jahangirnagar University.<br><br><b>2.</b> In this role, I train junior students in C, C++, data structures, and algorithms to prepare them for programming contests, manage regular training classes, organize practice contests, and monitor students performance. Additionally, I oversee academic classes for my batch and coordinate departmental ceremonies and events.',
+        desc: '<br><b>1.</b> From December 2021 to April 2023, I served as a Competitive Programming Trainer and Class Representative in the Department of Computer Science & Engineering at Jahangirnagar University.<br><br><b>2.</b> In this role, I trained junior students in C, C++, data structures, and algorithms to prepare them for programming contests. I managed regular training classes, organized practice contests, and monitored students performance. Additionally, I oversaw academic classes for my batch and coordinated departmental ceremonies and events.',
       },
       // Add more work experiences as needed
     ],
@@ -51,7 +51,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <h2 className="head-text">Skills & Experiences</h2>
+      <h2 className="head-text">Skills & Job Experiences</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -64,7 +64,6 @@ const Skills = () => {
             >
               <div
                 className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
               >
                 <img src={skill.icon} alt={skill.name} />
               </div>
