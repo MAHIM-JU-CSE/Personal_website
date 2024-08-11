@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9ca3fe15.css",
-    "main.js": "/portfolio/static/js/main.77c15ac7.js",
+    "main.css": "/portfolio/static/css/main.427d720a.css",
+    "main.js": "/portfolio/static/js/main.725a9bad.js",
     "static/media/logo.png": "/portfolio/static/media/logo.7c4d7d68b246e2e6ee05.png",
     "static/media/education.jpg": "/portfolio/static/media/education.eb52c29dec3edb5866b3.jpg",
     "static/media/flutter.png": "/portfolio/static/media/flutter.cc1b293ea6d839d886a9.png",
-    "static/media/profile.png": "/portfolio/static/media/profile.7837aae37350b11d2fb3.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.6ddfe1965968fec562b9.png",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/portfolio/static/media/about01.080509de05322b7aafda.png",
@@ -35,11 +35,11 @@
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.9ca3fe15.css.map": "/portfolio/static/css/main.9ca3fe15.css.map",
-    "main.77c15ac7.js.map": "/portfolio/static/js/main.77c15ac7.js.map"
+    "main.427d720a.css.map": "/portfolio/static/css/main.427d720a.css.map",
+    "main.725a9bad.js.map": "/portfolio/static/js/main.725a9bad.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ca3fe15.css",
-    "static/js/main.77c15ac7.js"
+    "static/css/main.427d720a.css",
+    "static/js/main.725a9bad.js"
   ]
 }
