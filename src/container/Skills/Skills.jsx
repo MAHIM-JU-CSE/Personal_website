@@ -16,20 +16,34 @@ const experiences = [
       {
         name: 'Software Engineer',
         company: 'Samsung R&D Institute Bangladesh',
-        desc: '<br><b>1.</b> At Samsung R&D Institute Bangladesh, I am responsible for working on an internal web-based project designed to manage networking data. My role includes analyzing feature requirements, designing and developing features, and fixing bugs. Project stack: Spring Boot, React, and MongoDB to build a system with 7 modules that handle 3G, 4G, and 5G data. Additionally, I implement RabbitMQ for seamless inter-module communication and WebSocket for real-time analytics in the Data Integration and Management Studio (DIMS) project.<br><br><b>2.</b> I am also involved in a separate project developing a Knowledge Graph RAG (Retrieve and Generate) interface to enhance the management and relevance of private data. <br><br><b>3.</b> In addition to my primary project, I contribute to patent development with a focus on advancements in camera photography and generative AI.',
+        desc: `<br>
+          <ul>
+            <li>Responsible for working on an internal web-based project designed to manage networking data.</li>
+            <li>Analyze feature requirements, design and develop features, and fix bugs.</li>
+            <li>Utilize Spring Boot, React, and MongoDB to build a system with 7 modules handling 3G, 4G, and 5G data.</li>
+            <li>Implement RabbitMQ for seamless inter-module communication.</li>
+            <li>Incorporate WebSocket for real-time analytics in the Data Integration and Management Studio (DIMS) project.</li>
+            <li>Involved in developing a Knowledge Graph RAG (Retrieve and Generate) interface to enhance management and relevance of private data.</li>
+            <li>Contribute to patent development focused on advancements in camera photography and generative AI.</li>
+          </ul>
+        `,
       },
       // Add more work experiences as needed
     ],
-  },
+  },,
   {
     year: 'Dec 2021 - April 2023',
     works: [
       {
         name: 'Competitive Programming Trainer (Teaching Assistant), Class Representative',
         company: 'Department of Computer Science & Engineering, Jahangirnagar University',
-        desc: '<br><b>1.</b> From December 2021 to April 2023, I served as a Competitive Programming Trainer and Class Representative in the Department of Computer Science & Engineering at Jahangirnagar University.<br><br><b>2.</b> In this role, I trained junior students in C, C++, data structures, and algorithms to prepare them for programming contests. I managed regular training classes, organized practice contests, and monitored students performance. Additionally, I oversaw academic classes for my batch and coordinated departmental ceremonies and events.',
+        desc: `<br>
+          <ul>
+            <li>Trained students in C, C++, data structures, and algorithms for programming contests.</li>
+            <li>Organized practice contests and coordinated academic activities and events.</li>
+          </ul>
+        `,
       },
-      // Add more work experiences as needed
     ],
   },
 ];
