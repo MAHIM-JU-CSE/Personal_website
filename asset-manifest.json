@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.427d720a.css",
-    "main.js": "/portfolio/static/js/main.725a9bad.js",
+    "main.css": "/portfolio/static/css/main.8186acf4.css",
+    "main.js": "/portfolio/static/js/main.6d746cd6.js",
     "static/media/logo.png": "/portfolio/static/media/logo.7c4d7d68b246e2e6ee05.png",
     "static/media/education.jpg": "/portfolio/static/media/education.eb52c29dec3edb5866b3.jpg",
     "static/media/flutter.png": "/portfolio/static/media/flutter.cc1b293ea6d839d886a9.png",
@@ -35,11 +35,11 @@
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.427d720a.css.map": "/portfolio/static/css/main.427d720a.css.map",
-    "main.725a9bad.js.map": "/portfolio/static/js/main.725a9bad.js.map"
+    "main.8186acf4.css.map": "/portfolio/static/css/main.8186acf4.css.map",
+    "main.6d746cd6.js.map": "/portfolio/static/js/main.6d746cd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.427d720a.css",
-    "static/js/main.725a9bad.js"
+    "static/css/main.8186acf4.css",
+    "static/js/main.6d746cd6.js"
   ]
 }
