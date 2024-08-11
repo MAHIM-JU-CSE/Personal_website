@@ -19,7 +19,14 @@
   align-items: flex-start;
   flex-direction: column;
   margin: 2rem;
+  a {
+    color: #007bff;
+    text-decoration: none;
 
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   img {
     width: 100%;
     height: 200px;
