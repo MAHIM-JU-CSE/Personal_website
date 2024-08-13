@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 
-// Import images from the assets folder
 import img1 from '../../assets/education.jpg';
 import img2 from '../../assets/SW.jpg';
 import img3 from '../../assets/research.png';
@@ -18,17 +17,17 @@ const abouts = [
   },
   {
     title: 'Software Engineer',
-    description: 'As a Software Engineer at Samsung R&D Institute Bangladesh, I work on an internal web-based project that manages networking data using <strong>Spring Boot, React, and MongoDB</strong>. This project -Data Integration and Management Studio (DIMS), includes seven modules designed to handle 3G, 4G, and 5G data. RabbitMQ facilitates inter-module communication, while WebSocket enables real-time analytics. I have also contributed to patent development, focusing on advancements in <strong>camera photography</strong> and <strong>generative AI</strong>. Additionally, I am also working on a separate project involving a <strong>Knowledge Graph RAG interface</strong> to enhance the retrieval and generation of information for private data.',
+    description: 'As a Software Engineer at Samsung R&D Institute Bangladesh, I work on an internal web-based project that manages networking data using <strong>Spring Boot, React, and MongoDB</strong>. This project includes seven modules designed to handle 3G, 4G, and 5G data. RabbitMQ facilitates inter-module communication, while WebSocket enables real-time analytics. Additionally, I am also working on a separate project involving a <strong>Knowledge Graph RAG interface</strong> to enhance the retrieval and generation of information for private data. I have also contributed to <strong>patent</strong> development for Samsung, aligning business objectives with innovative solutions.',
     imgUrl: img2,
   },
   {
     title: 'Research',
-    description: 'In my research, I focus on making large language models more efficient and practical by exploring innovative techniques like <strong>model quantization</strong> and <strong>LoRA (Low-Rank Adaptation)</strong>. My goal is to enhance how these models perform, making them more useful in real-world applications. I have been working with the <strong>LLaMA 2 and LLaMA 3 models</strong> to develop and test proof-of-concept solutions, pushing the boundaries of what these models can achieve. Beyond language models, I’m also involved in developing patents related to <strong>camera photography</strong> and <strong>generative AI</strong>. This work is about pushing the envelope in how we capture and create images, blending cutting-edge technology with creative solutions. Another exciting project I’m working on involves a <strong>Knowledge Graph RAG (Retrieve and Generate) interface</strong>. This project aims to improve how we handle and utilize private data by linking structured data with advanced language models, ultimately enhancing the accuracy and relevance of the information we generate.',
+    description: 'In my research, I focus on making large language models more efficient and practical by exploring innovative techniques like <strong>model quantization</strong> and <strong>LoRA (Low-Rank Adaptation)</strong> and <strong>Knowledge Graph RAG</strong>. My goal is to enhance how these models perform, making them more useful for both private and public data in real-world applications. I have been working with the <strong>LLaMA 2 and LLaMA 3 models</strong> to develop and test proof-of-concept solutions, pushing the boundaries of what these models can achieve. I’m also involved in developing patents related to <strong>camera photography (enhance photo quality)</strong> using <strong>generative AI</strong>. This work is about pushing the envelope in how we capture and create images with higher quality details, blending cutting-edge technology with creative solutions.',
     imgUrl: img3,
   },
   {
     title: 'Competitive Programmer',
-    description: 'I have competed in ICPC Dhaka Regional prelims for <strong>2021-22, 2022-23, and 2023-24</strong> with teams JU_NoName, JU_3AngryMen, and JU_Metamask. I achieved ranks of <strong>87</strong> in the <strong>NCPC 2023 prelims</strong> and <strong>146</strong> in the onsite contest with team JU_Anirbaaan. I also ranked <strong>16th out of 62 teams</strong> in the MBSTU Inter Department Programming Contest 2021 (Team: JU_darkMatter). Additionally, I earned a <strong>Bronze Medal</strong> in the University Physics Competition 2021(Team No: 233). My highest ratings are <strong>1568 on Codeforces</strong> (Specialist, handle: <a href="https://codeforces.com/profile/Mahim" target="_blank">Mahim</a>) and <strong>1916 on CodeChef</strong> (4*, handle: <a href="https://www.codechef.com/users/mahim47" target="_blank">mahim47</a>). Notable Bangladesh and global rankings include <strong>14th</strong> in Bangladesh and <strong>852nd </strong>globally in Codeforces Round 755 (Div. 2), <strong>2nd</strong> in Bangladesh and <strong>82nd</strong> globally in CodeChef Starters 62, <strong>4th in Bangladesh</strong> and <strong>123rd globally</strong> in CodeChef Starters 17, and <strong>26th</strong> in Bangladesh and <strong>551st</strong> globally in Codeforces Round 792 (Div. 1 + Div. 2). I’ve participated in <strong>over 160 online</strong> and <strong>over 10 onsite contests</strong> and solved <strong>1500+ problems</strong> (stopstalk profile: <a href="https://www.stopstalk.com/user/profile/Mahim" target="_blank">Mahim</a>). I also served as <strong>Organizer, Problem Setter, and Judge</strong> for JU CSE 29’s Brain Muscle Checking Contest 2022 and Binary Brains Battle December 2022, both of which aimed to encourage junior students of Jahangirnagar University in problem-solving.',
+    description: 'I have competed in ICPC Dhaka Regional prelims for <strong>2021-22, 2022-23, and 2023-24</strong> with teams JU_NoName, JU_3AngryMen, and JU_Metamask. I ranked <strong>87th</strong> in NCPC 2023 prelims and <strong>146th</strong> in the onsite contest with team JU_Anirbaaan. Notable achievements include <strong>16th</strong> in the MBSTU Inter Department Programming Contest 2021 with team JU_darkMatter and a <strong>Bronze Medal</strong> in the research based University Physics Competition 2021.My highest ratings are <strong>1568 on Codeforces</strong> (Specialist, handle: <a href="https://codeforces.com/profile/Mahim" target="_blank">Mahim</a>) and <strong>1916 on CodeChef</strong> (4*, handle: <a href="https://www.codechef.com/users/mahim47" target="_blank">mahim47</a>). I’ve participated in over 180 online and 10 onsite contests, solving 1500+ problems (profile: <a href="https://www.stopstalk.com/user/profile/Mahim" target="_blank">Mahim</a>). I also organized and judged programming contests at Jahangirnagar University.',
     imgUrl: img4,
   },
 ];
@@ -41,9 +40,9 @@ const About = () => {
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
-            whileInView={{ opacity: 1 }}
+            whileInView={{ x: [-100, 0], opacity: 1 }}
             whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: 'tween' }}
+            transition={{ duration: 1, type: 'tween' }}
             className="app__profile-item"
             key={about.title + index}
           >

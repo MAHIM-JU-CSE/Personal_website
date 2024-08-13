@@ -20,7 +20,7 @@ const works = [
   },
   {
     title: 'Web App Development',
-    description: 'Development of a full-featured web application using modern technologies.',
+    description: 'A project focused on UI/UX design principles and practices.',
     imgUrl: about0q,
     projectLink: 'https://example.com',
     codeLink: 'https://github.com/example',
@@ -28,7 +28,7 @@ const works = [
   },
   {
     title: 'Mobile App Design',
-    description: 'Design and development of a mobile application with a user-friendly interface.',
+    description: 'A project focused on UI/UX design principles and practices.',
     imgUrl: about0q,
     projectLink: 'https://example.com',
     codeLink: 'https://github.com/example',
