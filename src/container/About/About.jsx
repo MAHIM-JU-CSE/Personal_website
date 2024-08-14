@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 
-import img1 from '../../assets/education.jpg';
+import img1 from '../../assets/education.png';
 import img2 from '../../assets/SW.jpg';
 import img3 from '../../assets/research.png';
 import img4 from '../../assets/icpc.png';
