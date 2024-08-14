@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Tooltip } from 'react-tooltip';
+// import { Tooltip } from 'react-tooltip';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Skills.scss';
@@ -19,6 +19,16 @@ import GenerativeAI from '../../assets/reduxdd.png'
 import java from '../../assets/java.png'
 import mongo from '../../assets/mongo.png'
 import sql from '../../assets/sql.png'
+import next from '../../assets/next.png'
+import android from '../../assets/android.png'
+import gradio from '../../assets/gradio.png'
+import dsa from '../../assets/dsa.png'
+import c from '../../assets/c.png'
+import css from '../../assets/css.png'
+import patent from '../../assets/patent.png'
+import docker from '../../assets/docker.png'
+import websocket from '../../assets/websocket.png'
+import rabbit from '../../assets/rabbit.png'
 
 const experiences = [
   {
@@ -71,29 +81,55 @@ const skills = [
     icon: react,
   },
   {
+    name: 'Next.js',
+    bgColor: '#61DAFB',
+    icon: next,
+  },
+  {
+    name: 'MongoDB',
+    bgColor: '#61DAFB',
+    icon: mongo,
+  },
+  {
+    name: 'MySQL',
+    bgColor: '#61DAFB',
+    icon: sql,
+  },
+  {
+    name: 'Docker',
+    bgColor: '#61DAFB',
+    icon: docker,
+  },
+  {
+    name: 'C',
+    bgColor: '#61DAFB',
+    icon: c,
+  },
+  {
     name: 'C++',
     bgColor: '#61DAFB',
     icon: cpp,
   },
   {
-    name: 'Git',
+    name: 'java',
     bgColor: '#61DAFB',
-    icon: git,
+    icon: java,
   },
+  
   {
     name: 'Python',
     bgColor: '#61DAFB',
     icon: python,
   },
   {
-    name: 'Redux',
+    name: 'HTML',
     bgColor: '#61DAFB',
-    icon: redux,
+    icon: html,
   },
   {
-    name: 'Typescript',
+    name: 'CSS',
     bgColor: '#61DAFB',
-    icon: typescript,
+    icon: css,
   },
   {
     name: 'Javascript',
@@ -101,9 +137,34 @@ const skills = [
     icon: javascript,
   },
   {
-    name: 'HTML',
+    name: 'Typescript',
     bgColor: '#61DAFB',
-    icon: html,
+    icon: typescript,
+  },
+  {
+    name: 'Web Socket',
+    bgColor: '#61DAFB',
+    icon: websocket,
+  },
+  {
+    name: 'Rabbit MQ',
+    bgColor: '#61DAFB',
+    icon: rabbit,
+  },
+  {
+    name: 'Git',
+    bgColor: '#61DAFB',
+    icon: git,
+  },
+  {
+    name: 'Redux',
+    bgColor: '#61DAFB',
+    icon: redux,
+  },
+  {
+    name: 'Android Studio',
+    bgColor: '#61DAFB',
+    icon: android,
   },
   {
     name: 'LLM',
@@ -115,20 +176,21 @@ const skills = [
     bgColor: '#61DAFB',
     icon: GenerativeAI,
   },
+  
   {
-    name: 'java',
+    name: 'DSA',
     bgColor: '#61DAFB',
-    icon: java,
+    icon: dsa,
   },
   {
-    name: 'MongoDB',
+    name: 'Gradio',
     bgColor: '#61DAFB',
-    icon: mongo,
+    icon: gradio,
   },
   {
-    name: 'MySQL',
+    name: 'Patent',
     bgColor: '#61DAFB',
-    icon: sql,
+    icon: patent,
   },
 ];
 
@@ -174,14 +236,14 @@ const Skills = () => {
                       <h4>{work.company}</h4>
                       <div dangerouslySetInnerHTML={{ __html: work.desc }} className="p-text" />
                     </motion.div>
-                    <Tooltip
+                    {/* <Tooltip
                       id={work.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
                       {work.desc}
-                    </Tooltip>
+                    </Tooltip> */}
                   </>
                 ))}
               </motion.div>
