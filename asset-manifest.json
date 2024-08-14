@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7028c70d.css",
-    "main.js": "/portfolio/static/js/main.35110d2c.js",
+    "main.js": "/portfolio/static/js/main.7706f591.js",
     "static/media/logo.png": "/portfolio/static/media/logo.7c4d7d68b246e2e6ee05.png",
-    "static/media/education.jpg": "/portfolio/static/media/education.eb52c29dec3edb5866b3.jpg",
     "static/media/flutter.png": "/portfolio/static/media/flutter.cc1b293ea6d839d886a9.png",
     "static/media/profile.png": "/portfolio/static/media/profile.6ddfe1965968fec562b9.png",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -20,6 +19,7 @@
     "static/media/asus.png": "/portfolio/static/media/asus.514bc34955008a92e09f.png",
     "static/media/SW.jpg": "/portfolio/static/media/SW.8d05a328db9b609b0c5b.jpg",
     "static/media/java.png": "/portfolio/static/media/java.679348d01a2c6c83c2d0.png",
+    "static/media/education.jpg": "/portfolio/static/media/education.8487aa403fdab131cb37.jpg",
     "static/media/adidas.png": "/portfolio/static/media/adidas.83df8153294f9137d308.png",
     "static/media/bolt.png": "/portfolio/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/stopstalk.png": "/portfolio/static/media/stopstalk.151f880ebed718bb5568.png",
@@ -43,10 +43,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.7028c70d.css.map": "/portfolio/static/css/main.7028c70d.css.map",
-    "main.35110d2c.js.map": "/portfolio/static/js/main.35110d2c.js.map"
+    "main.7706f591.js.map": "/portfolio/static/js/main.7706f591.js.map"
   },
   "entrypoints": [
     "static/css/main.7028c70d.css",
-    "static/js/main.35110d2c.js"
+    "static/js/main.7706f591.js"
   ]
 }
