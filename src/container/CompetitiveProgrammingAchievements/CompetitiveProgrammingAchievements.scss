@@ -137,21 +137,21 @@
     padding: 1.5rem;
 
     .head-text {
-      font-size: 1.75rem;
+      font-size: 1.6rem; // Decreased from 1.75rem
     }
 
     li {
-      font-size: 0.85rem;
+      font-size: 0.8rem; // Decreased from 0.85rem
     }
   }
 
   @media (max-width: 576px) {
     .head-text {
-      font-size: 1.75rem;
+      font-size: 1.4rem; // Decreased from 1.75rem
     }
 
     li {
-      font-size: 0.8rem;
+      font-size: 0.75rem; // Decreased from 0.8rem
     }
   }
 }
