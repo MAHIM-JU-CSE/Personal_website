@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1f9af859.css",
-    "main.js": "/portfolio/static/js/main.afdb522b.js",
+    "main.js": "/portfolio/static/js/main.7eb4cf16.js",
     "static/media/logo.png": "/portfolio/static/media/logo.7c4d7d68b246e2e6ee05.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.cc1b293ea6d839d886a9.png",
     "static/media/profile.png": "/portfolio/static/media/profile.6ddfe1965968fec562b9.png",
@@ -26,28 +26,32 @@
     "static/media/stopstalk.png": "/portfolio/static/media/stopstalk.151f880ebed718bb5568.png",
     "static/media/redux.png": "/portfolio/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/portfolio/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/rafsan_sir.jpg": "/portfolio/static/media/rafsan_sir.b8d95399df834710a361.jpg",
     "static/media/node.png": "/portfolio/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/portfolio/static/media/cpp.9002a804bbfa0354d0b8.png",
     "static/media/codeforces.png": "/portfolio/static/media/codeforces.278b1075e6878822ae6c.png",
     "static/media/icpc.png": "/portfolio/static/media/icpc.50f3897c0ff034969033.png",
     "static/media/graphql.png": "/portfolio/static/media/graphql.0372057049181c5de51a.png",
+    "static/media/marufbhai.jpg": "/portfolio/static/media/marufbhai.6202fbb5263f3156a230.jpg",
     "static/media/logo-ju.png": "/portfolio/static/media/logo-ju.f57c75768c843fc1f8f5.png",
     "static/media/amazon.png": "/portfolio/static/media/amazon.0a8be1f53138b5c52456.png",
     "static/media/mobile.png": "/portfolio/static/media/mobile.145d9ce0157a56f8fcd8.png",
     "static/media/codechef.png": "/portfolio/static/media/codechef.bcf4eb7bbe56812be0d0.png",
+    "static/media/jugal_sir.jpg": "/portfolio/static/media/jugal_sir.66e3839cadf71ba273fd.jpg",
     "static/media/email.png": "/portfolio/static/media/email.37b9e890eea501421fbf.png",
     "static/media/figma.png": "/portfolio/static/media/figma.152e55329b6f1915967e.png",
     "static/media/sql.png": "/portfolio/static/media/sql.b2a6801c5ab3bb49aacb.png",
+    "static/media/Mushfique_Sir.jpg": "/portfolio/static/media/Mushfique_Sir.79db0840cb1c39e686eb.jpg",
     "static/media/css.png": "/portfolio/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.1f9af859.css.map": "/portfolio/static/css/main.1f9af859.css.map",
-    "main.afdb522b.js.map": "/portfolio/static/js/main.afdb522b.js.map"
+    "main.7eb4cf16.js.map": "/portfolio/static/js/main.7eb4cf16.js.map"
   },
   "entrypoints": [
     "static/css/main.1f9af859.css",
-    "static/js/main.afdb522b.js"
+    "static/js/main.7eb4cf16.js"
   ]
 }
