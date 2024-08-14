@@ -43,7 +43,10 @@ const containerVariants = {
 const CompetitiveProgrammingAchievements = () => {
   return (
     <>
-      <h2 className="head-text">Competitive Programming Achievements</h2>
+      <h2 className="head-text">
+        Competitive Programming <span>Achievements</span>
+      </h2>
+      {/* <h2 className="head-text">Competitive Programming Achievements</h2> */}
       <motion.div
         className="app__competitive-programming-achievements"
         variants={containerVariants}
@@ -172,11 +175,19 @@ const CompetitiveProgrammingAchievements = () => {
           <li>
             Highest ratings: <strong>1568 </strong>on Codeforces (Specialist,
             handle:{" "}
-            <a href="https://codeforces.com/profile/Mahim" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://codeforces.com/profile/Mahim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Mahim
             </a>
             ) and <strong>1916</strong> on CodeChef (4*, handle:{" "}
-            <a href="https://www.codechef.com/users/mahim47" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.codechef.com/users/mahim47"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               mahim47
             </a>
             ).
@@ -207,6 +218,6 @@ const CompetitiveProgrammingAchievements = () => {
 
 export default AppWrap(
   MotionWrap(CompetitiveProgrammingAchievements, "app__about"),
-  "about",
+  "achievements",
   "app__whitebg"
 );
