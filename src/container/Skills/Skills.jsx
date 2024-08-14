@@ -17,6 +17,8 @@ import javascript from '../../assets/javascript.png'
 import llama from '../../assets/llama.png'
 import GenerativeAI from '../../assets/reduxdd.png'
 import java from '../../assets/java.png'
+import mongo from '../../assets/mongo.png'
+import sql from '../../assets/sql.png'
 
 const experiences = [
   {
@@ -117,6 +119,16 @@ const skills = [
     name: 'java',
     bgColor: '#61DAFB',
     icon: java,
+  },
+  {
+    name: 'MongoDB',
+    bgColor: '#61DAFB',
+    icon: mongo,
+  },
+  {
+    name: 'MySQL',
+    bgColor: '#61DAFB',
+    icon: sql,
   },
 ];
 
