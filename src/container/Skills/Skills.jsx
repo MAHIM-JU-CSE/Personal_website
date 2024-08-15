@@ -143,7 +143,7 @@ const skills = [
     icon: typescript,
   },
   {
-    name: "Web Socket",
+    name: "WebSocket",
     bgColor: "#61DAFB",
     icon: websocket,
   },

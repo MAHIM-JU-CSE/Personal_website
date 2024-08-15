@@ -1,0 +1,93 @@
+.research-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Allow the container to expand horizontally */
+  max-width: 1000px; /* Set a max width */
+  margin: 0 auto;
+
+  .research-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  .head-text{
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .publications-list {
+    display: flex;
+    flex-direction: column; /* Ensure single elements in a row */
+    gap: 1rem;
+
+    .publication-item {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+      width: 100%; /* Full width of the container */
+      max-width: 1000px; /* Set a max width */
+      overflow: hidden;
+
+      .publication-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .publication-authors {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #555;
+      }
+
+      .publication-details {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 0.5rem;
+      }
+
+      .publication-status {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+
+        &.published {
+          color: green;
+        }
+
+        &.in-progress {
+          color: rgb(233, 174, 12);
+        }
+      }
+
+      .publication-abstract {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 0.5rem;
+        height: auto; /* Automatically fit the content */
+        white-space: pre-wrap; /* Preserve line breaks */
+      }
+
+      .publication-doi {
+        font-size: 0.9rem;
+        color: #0066cc;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .publication-item {
+    max-width: 100%; /* Ensure full width on smaller screens */
+  }
+}
