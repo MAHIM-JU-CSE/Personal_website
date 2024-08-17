@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2f297aa2.css",
-    "main.js": "/portfolio/static/js/main.4603dfbb.js",
+    "main.css": "/portfolio/static/css/main.30df6971.css",
+    "main.js": "/portfolio/static/js/main.756611c8.js",
     "static/media/logo.png": "/portfolio/static/media/logo.7c4d7d68b246e2e6ee05.png",
+    "static/media/ncpc.png": "/portfolio/static/media/ncpc.799742eaa3387ef59537.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.cc1b293ea6d839d886a9.png",
     "static/media/profile.png": "/portfolio/static/media/profile.6ddfe1965968fec562b9.png",
+    "static/media/upc.png": "/portfolio/static/media/upc.a8c295bd081a66ebe40b.png",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/portfolio/static/media/about01.080509de05322b7aafda.png",
@@ -12,12 +14,18 @@
     "static/media/education.png": "/portfolio/static/media/education.b8d89835fcc83dfd9e48.png",
     "static/media/bgIMG.png": "/portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/portfolio/static/media/bgWhite.79658cadae50b3b16ee5.png",
+    "static/media/agoda.png": "/portfolio/static/media/agoda.7633685f1617ca26a70c.png",
+    "static/media/hackercup.png": "/portfolio/static/media/hackercup.5d3da170697cfe9c8165.png",
     "static/media/about03.png": "/portfolio/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/spotify.png": "/portfolio/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/nb.png": "/portfolio/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/reduxdd.png": "/portfolio/static/media/reduxdd.3d8bea51d3eceb73d617.png",
     "static/media/research.png": "/portfolio/static/media/research.46e9890fa5e0e77fb399.png",
+    "static/media/2024_team.png": "/portfolio/static/media/2024_team.2e40c6d05dc51655eadb.png",
+    "static/media/2022_team.png": "/portfolio/static/media/2022_team.e1dd6b940ddd4548cc1a.png",
+    "static/media/2024_my.png": "/portfolio/static/media/2024_my.3d9c84d7dab9d6870529.png",
     "static/media/asus.png": "/portfolio/static/media/asus.514bc34955008a92e09f.png",
+    "static/media/2022_my.png": "/portfolio/static/media/2022_my.98f67ed8fc7f3c405b1e.png",
     "static/media/SW.jpg": "/portfolio/static/media/SW.8d05a328db9b609b0c5b.jpg",
     "static/media/java.png": "/portfolio/static/media/java.679348d01a2c6c83c2d0.png",
     "static/media/adidas.png": "/portfolio/static/media/adidas.83df8153294f9137d308.png",
@@ -47,11 +55,11 @@
     "static/media/skype.png": "/portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.2f297aa2.css.map": "/portfolio/static/css/main.2f297aa2.css.map",
-    "main.4603dfbb.js.map": "/portfolio/static/js/main.4603dfbb.js.map"
+    "main.30df6971.css.map": "/portfolio/static/css/main.30df6971.css.map",
+    "main.756611c8.js.map": "/portfolio/static/js/main.756611c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f297aa2.css",
-    "static/js/main.4603dfbb.js"
+    "static/css/main.30df6971.css",
+    "static/js/main.756611c8.js"
   ]
 }
