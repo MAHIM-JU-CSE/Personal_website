@@ -6,6 +6,7 @@ import Research from './Research/Research';
 import Testimonial from './Testimonial/Testimonial';
 import Work from './Work/Work';
 import CompetitiveProgrammingAchievements from './CompetitiveProgrammingAchievements/CompetitiveProgrammingAchievements';
+import Certificates from './Certificates/Certificates';
 
 export {
   About,
@@ -15,5 +16,6 @@ export {
   CompetitiveProgrammingAchievements,
   Research,
   Testimonial,
+  Certificates,
   Work,
 };

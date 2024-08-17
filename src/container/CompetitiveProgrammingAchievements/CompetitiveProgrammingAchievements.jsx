@@ -210,6 +210,20 @@ const CompetitiveProgrammingAchievements = () => {
             Organizer, Problem Setter, and Judge for JU CSE 29’s Brain Muscle
             Checking Contest 2022 and Binary Brains Battle December 2022.
           </li>
+          <li>
+            ranked 3815th out of 27604 participants in Hackercup 2022 Qualification Round and progress the next Round.
+            {" "}
+            <a
+              href="https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/scoreboard"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hackercup 2022
+            </a>
+          </li>
+          <li>
+            Participated in Codegoda Programming Competition 2022 by Agoda.
+          </li>
         </ul>
       </motion.div>
     </>

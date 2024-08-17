@@ -3,6 +3,7 @@ import React from "react";
 import { About, Footer, Header, Skills, Research, Testimonial, Work , CompetitiveProgrammingAchievements} from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
+import Certificates from "./container/Certificates/Certificates";
 // import Research from "./container/Research/Research";
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
     <Research/>
     <Work />
     <Testimonial />
+    <Certificates/>
     <Footer />
   </div>
 );
