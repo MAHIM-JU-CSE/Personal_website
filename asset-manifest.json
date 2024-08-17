@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30df6971.css",
-    "main.js": "/portfolio/static/js/main.756611c8.js",
+    "main.js": "/portfolio/static/js/main.e7c48c90.js",
     "static/media/logo.png": "/portfolio/static/media/logo.7c4d7d68b246e2e6ee05.png",
     "static/media/ncpc.png": "/portfolio/static/media/ncpc.799742eaa3387ef59537.png",
     "static/media/flutter.png": "/portfolio/static/media/flutter.cc1b293ea6d839d886a9.png",
     "static/media/profile.png": "/portfolio/static/media/profile.6ddfe1965968fec562b9.png",
     "static/media/upc.png": "/portfolio/static/media/upc.a8c295bd081a66ebe40b.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.98b738953dc6983acfa8.png",
+    "static/media/objectdetection.png": "/portfolio/static/media/objectdetection.0797e90b4f1d6f095752.png",
     "static/media/about04.png": "/portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/portfolio/static/media/about01.080509de05322b7aafda.png",
@@ -22,6 +24,7 @@
     "static/media/reduxdd.png": "/portfolio/static/media/reduxdd.3d8bea51d3eceb73d617.png",
     "static/media/research.png": "/portfolio/static/media/research.46e9890fa5e0e77fb399.png",
     "static/media/2024_team.png": "/portfolio/static/media/2024_team.2e40c6d05dc51655eadb.png",
+    "static/media/ai.png": "/portfolio/static/media/ai.9eb54610a2d3a8b4e5cb.png",
     "static/media/2022_team.png": "/portfolio/static/media/2022_team.e1dd6b940ddd4548cc1a.png",
     "static/media/2024_my.png": "/portfolio/static/media/2024_my.3d9c84d7dab9d6870529.png",
     "static/media/asus.png": "/portfolio/static/media/asus.514bc34955008a92e09f.png",
@@ -32,6 +35,7 @@
     "static/media/patent.png": "/portfolio/static/media/patent.aa18f1ac7a1e1f8febe5.png",
     "static/media/bolt.png": "/portfolio/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/stopstalk.png": "/portfolio/static/media/stopstalk.151f880ebed718bb5568.png",
+    "static/media/biofloc.PNG": "/portfolio/static/media/biofloc.b2044bf2c608e604ac92.PNG",
     "static/media/redux.png": "/portfolio/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/portfolio/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/rafsan_sir.jpg": "/portfolio/static/media/rafsan_sir.b8d95399df834710a361.jpg",
@@ -56,10 +60,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/circle.svg": "/portfolio/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.30df6971.css.map": "/portfolio/static/css/main.30df6971.css.map",
-    "main.756611c8.js.map": "/portfolio/static/js/main.756611c8.js.map"
+    "main.e7c48c90.js.map": "/portfolio/static/js/main.e7c48c90.js.map"
   },
   "entrypoints": [
     "static/css/main.30df6971.css",
-    "static/js/main.756611c8.js"
+    "static/js/main.e7c48c90.js"
   ]
 }
