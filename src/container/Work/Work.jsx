@@ -35,7 +35,7 @@ const works = [
     tags: ["Machine Learning"],
   },
   {
-    title: "Web App",
+    title: "Portfolio",
     description:
       "This is a web project using Reactjs, Framer motion, SCSS, and Emailjs. The site is designed fully responsive using media query. It is made to represent my academic and professional details",
     imgUrl: portfolio,
@@ -44,7 +44,7 @@ const works = [
     tags: ["Web App"],
   },
   {
-    title: "Generative AI",
+    title: "Conversational AI",
     description:
       "This is a Conversational AI project leveraging the LLaMA 3.1 8B and Mistral 7B models, integrated through Ollama and OpenWebUI for robust and responsive natural language interactions.",
     imgUrl: ai,
@@ -77,11 +77,11 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        Personal Innovative <span>Projects</span>
+        Personal <span>Projects</span>
       </h2>
 
       <div className="app__work-filter">
-        {["IoT", "Machine Learning", "Mobile App", "React JS", "All"].map(
+        {["IoT", "Machine Learning", "Generative AI", "Web App", "All"].map(
           (item, index) => (
             <div
               key={index}

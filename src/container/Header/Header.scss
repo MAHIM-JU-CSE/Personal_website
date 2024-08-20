@@ -26,6 +26,12 @@
   }
 
   @media screen and (max-width: 1200px) {
+    .p-text{
+      font-size: small;
+    }
+    .head-text{
+      font-size: 1rem;
+    }
     flex-direction: column;
   }
 
@@ -47,6 +53,10 @@
     width: 100%;
     margin-right: 0;
   }
+
+  @media screen and (max-width: 450px) {
+    margin: 0 1rem;
+  }
 }
 
 .app__header-badge {
@@ -58,18 +68,17 @@
 
   .badge-cmp,
   .tag-cmp {
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem; // Reduced padding for smartphones
     background: var(--white-color);
     border-radius: 15px;
     flex-direction: row;
     width: auto;
-
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   }
 
   .tag-cmp {
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem; // Reduced margin for smartphones
 
     p {
       width: 100%;
@@ -79,16 +88,35 @@
   }
 
   span {
-    font-size: 2.5rem;
+    font-size: 2rem; // Reduced font size for smartphones
 
     @media screen and (min-width: 2000px) {
       font-size: 5rem;
     }
   }
 
+  h1 {
+    font-size: 1.5rem; // Adjust this to fit your needs
+  }
+
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  @media screen and (max-width: 450px) {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .tag-cmp {
+      margin-top: 1rem; // Further reduced margin for smaller screens
+    }
+
+    p,
+    h1 {
+      font-size: 1.2rem; // Further reduction for smaller screens
+    }
   }
 }
 
@@ -155,6 +183,33 @@
       margin: 1rem;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    div {
+      width: 60px;  // Further reduced size for smaller screens
+      height: 60px;
+      
+      &:nth-child(2) {
+        width: 90px;
+        height: 90px;
+      }
+      
+      &:nth-child(1) {
+        width: 50px;
+        height: 50px;
+      }
+      
+      &:nth-child(3) {
+        width: 40px;
+        height: 40px;
+      }
+
+      img {
+        width: 50%;  // Adjust the inner image size
+        height: 50%;
+      }
+    }
+  }
 }
 
 .app__header-img {
@@ -164,7 +219,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   position: relative;
-  
+
   img {
     width: 100%;
     height: 100%;
@@ -183,6 +238,15 @@
   }
 
   @media screen and (max-width: 1200px) {
-    margin: 2rem 0;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 450px) {
+    img {
+      width: 80%; // Adjust this value as needed
+      height: auto;
+      object-fit: cover; // Makes sure the image covers the container properly
+    }
   }
 }

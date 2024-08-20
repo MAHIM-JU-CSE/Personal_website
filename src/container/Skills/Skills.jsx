@@ -143,16 +143,6 @@ const skills = [
     icon: typescript,
   },
   {
-    name: "WebSocket",
-    bgColor: "#61DAFB",
-    icon: websocket,
-  },
-  {
-    name: "Rabbit MQ",
-    bgColor: "#61DAFB",
-    icon: rabbit,
-  },
-  {
     name: "Git",
     bgColor: "#61DAFB",
     icon: git,
@@ -161,6 +151,16 @@ const skills = [
     name: "Redux",
     bgColor: "#61DAFB",
     icon: redux,
+  },
+  {
+    name: "WebSocket",
+    bgColor: "#61DAFB",
+    icon: websocket,
+  },
+  {
+    name: "Rabbit MQ",
+    bgColor: "#61DAFB",
+    icon: rabbit,
   },
   {
     name: "Android",
@@ -173,16 +173,17 @@ const skills = [
     icon: llama,
   },
   {
+    name: "DSA",
+    bgColor: "#61DAFB",
+    icon: dsa,
+  },
+  {
     name: "GenerativeAI",
     bgColor: "#61DAFB",
     icon: GenerativeAI,
   },
 
-  {
-    name: "DSA",
-    bgColor: "#61DAFB",
-    icon: dsa,
-  },
+  
   {
     name: "Gradio",
     bgColor: "#61DAFB",
